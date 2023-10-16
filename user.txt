@@ -1,0 +1,3 @@
+db user: CARRITO_USER
+
+db password: O4BGQnDU79yiEvHC
