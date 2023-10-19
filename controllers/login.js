@@ -21,7 +21,7 @@ const login = (req, res) => {
                            email, name, _id
                         } })
                 } else{
-                    res.json({ msg: 'Contrasena incorrecta' })
+                    res.status(401).json({ ok: false, msg: 'Contrasena incorrecta' })
                 }
             })
         })
